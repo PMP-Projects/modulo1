@@ -8,6 +8,10 @@ import java.util.UUID;
 
 public final class PessoaControllerAdapter {
 
+    private PessoaControllerAdapter() {
+        throw new UnsupportedOperationException("Classe utilitária não pode ser instanciada");
+    }
+
     public static Pessoa toEntity(PessoaRequest request) {
         return new Pessoa(
                 UUID.randomUUID().toString(),
