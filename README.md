@@ -101,16 +101,18 @@ git clone https://github.com/PMP-Projects/modulo1-PMP.git
 cd modulo1
 ````
 
-### 2️⃣ Suba os containers necessários e Rode a Aplicação
+### 2️⃣ Suba os Containers e Rode a Aplicação
 ```bash
-# Inicie os containers (MongoDB, Redis, OpenSearch, Graylog)
+# Inicie os containers (MongoDB, Redis, OpenSearch, Graylog), juntamente com o Dockerfile da aplicação
 docker compose up -d --build
-
-> Abra o projeto na IDE de sua preferência e rode a aplicação Spring Boot!
-
-# Ou rode via terminal com profile local:
-mvn spring-boot:run -pl spring -Dspring-boot.run.jvmArguments="-Dspring.profiles.active=local"
 ```
+
+#### Serviços do Docker Compose
+
+Caso queira acessar o gerenciamento de logs ou a base de dados do MongoDB, você pode utilizar esses acessos
+- Graylog Web UI: http://localhost:9000 (usuário: admin, senha: admin)
+- MongoDB: localhost:27017
+
 
 ## 📦 Esteira CI/CD com Github Actions
 
@@ -118,6 +120,7 @@ A esteira CI/CD deste projeto é automatizada via Github Actions.
 
 ###  Etapas da Esteira:
 1️⃣ Verificação de **Vulnerabilidades** com o **Trivy**
+
 2️⃣ Análise de qualidade de código com **Sonar Cloud**
 
 ---
@@ -132,6 +135,8 @@ A esteira CI/CD deste projeto é automatizada via Github Actions.
 | `DELETE` | `/{id}`  | Desativar (deletar logicamente) uma pessoa pelo ID                |
 
 ### Exemplos de uso com cURL
+
+* Obs.: cURLs exportados do Insomnia
 
 #### Criar Pessoa
 
