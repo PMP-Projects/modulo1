@@ -78,7 +78,6 @@ Módulo 1
 
 > A Qualidade de Código do Projeto é Analisada através do SonarQube, verifique os badges a seguir que apresentam as métricas obtidas no projeto!
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=bugs)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
