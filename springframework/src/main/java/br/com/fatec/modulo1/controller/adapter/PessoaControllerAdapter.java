@@ -27,8 +27,7 @@ public final class PessoaControllerAdapter {
         return new PessoaResponse(
                 pessoa.id(),
                 pessoa.nome(),
-                pessoa.dataNascimento(),
-                pessoa.ativo()
+                pessoa.dataNascimento()
         );
     }
 }
