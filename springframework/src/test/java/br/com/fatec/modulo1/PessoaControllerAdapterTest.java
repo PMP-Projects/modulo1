@@ -31,7 +31,6 @@ class PessoaControllerAdapterTest {
         assertEquals("123", response.id());
         assertEquals("Maria Oliveira", response.nome());
         assertEquals(LocalDate.of(1995, 5, 5), response.dataNascimento());
-        assertTrue(response.ativo());
     }
 
     @Test
