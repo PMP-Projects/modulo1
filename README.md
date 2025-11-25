@@ -78,10 +78,8 @@ Módulo 1
 
 > A Qualidade de Código do Projeto é Analisada através do SonarQube, verifique os badges a seguir que apresentam as métricas obtidas no projeto!
 
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=bugs)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=PMP-Projects_modulo1-PMP&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=PMP-Projects_modulo1-PMP)
